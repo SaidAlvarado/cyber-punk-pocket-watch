@@ -1,0 +1,52 @@
+# Zephyr / west
+build/
+build-*/
+.west/
+zephyr/
+modules/
+bootloader/
+nrf/
+nrfxlib/
+twister-out*/
+
+# Pico SDK / CMake
+firmware/rp2350/build/
+cmake-build-*/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk
+*.aab
+*.keystore
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+*.o
+*.elf
+*.hex
+*.bin
+*.uf2
+*.map

@@ -1,0 +1,24 @@
+- Smart Notification Forwarding
+	- Shows in the watch screen the last phone notification
+- Bike Compass
+	- Beeline like compass, where I can share a location from google maps, and the pocket will show me a compass needle pointing in the direction of my destination.
+	- GPS location may be local from a GPS sensor, or queried from the phone location sensor
+	- Also, record and share the trips with my Strava account.
+- Clicker counter with Timestamps
+	- One button on the watch face counts a counter up every time it's clicked.
+	- The counter is stored inside the pocket watch
+	- but A csv with the timestamps of each click can be downloaded from the paired phone.
+- Audio control
+	- Buttons on the watch face can pause/play, forward, backward, the media on my phone.
+- Smart voice Notetaking
+	- One button on the watch face starts recording my voice and sends the audio to the phone for speach-to-text convertion.
+	- Plus, depending on a premade configuration, the text may be stored in one of several notetaing apps.
+	- Namely, specific obsidian notes.
+	- Or specific google keep notes (so I can add things to my groceries list on google keep with a voice command)
+- Rain alert
+	- Service that displays a notification on my Smart Watch if it is expected to rain in the next 30min.
+	- The smart phone will poll a weather service online and forward the information to the Watch
+	- So I can put on my poncho on time before the rain starts.
+- Metro about to Leave
+	- Depending on my location the watch face, has a little display showing the train departure schedule or nearby train station.
+	- The phone will need to poll the corresponding server and forward the relevant information to the watchface.
